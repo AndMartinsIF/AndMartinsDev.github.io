@@ -1,0 +1,298 @@
+* {
+	font-family: sans-serif;
+	font-weight: 600;
+}
+html, body {
+	box-sizing: border-box;
+	background: #000000;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+a {
+	transition: all 5000ms;
+}
+
+/* HEADER */
+header {
+	background-image: linear-gradient(black, transparent 25%, transparent 90%,black), url(../img/theInternship_6.jpg);
+	background-attachment: scroll;
+	background-position-x: center;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	background-size: 220vh;
+	height: 98Vh;
+}
+.div-header {
+	margin-left: 4%;
+	color:rgb(76, 76, 76);
+	padding-top: 18vh;
+}
+.div-header span {
+	font-style: italic;
+	font-size: 0.8em;
+}
+.div-header h4 {
+	margin: 0;
+}
+.div-header h4 img {
+	width: 30px;
+	margin-bottom: -5px;
+}
+.logoHeader {
+	margin: 0;
+	width: 300px;
+}
+.h1 {
+	margin: 0;
+}
+.div-header p {
+	font-size: 1em;
+	width: 500px;
+	max-width: 90%;
+	max-height: 15vh;
+	text-align: justify;
+}
+button {
+	border: none;
+	color:white;
+	margin-top: 4vh;
+	background-color: rgba(2, 2, 2, 0.306);
+	min-width: 12vw;
+	height: 5.6vh;
+	border-radius: 3px;
+	font-size: 1em;
+	outline-style: none;
+}
+button:hover {
+	background-color: white;
+	color: #5a5a5a;
+	
+}
+button a {
+	list-style: none;
+	text-decoration: none;
+	text-transform: none;
+}
+#sec-title {
+	margin-left: 10%;
+	margin-top:-3%;
+	color: #ffffff;
+}
+#div-vinheta {
+	position: static;
+	margin-top: -3vh;
+	margin-left: auto;
+	display: flex;
+	width: 140px;
+	height: 30px;
+}
+.div-vinheta-icon {
+	background-color: #888888;
+	border:white solid 1px;
+	border-radius: 250px;
+	padding: 3px;
+	width: 28px;
+	margin: 0px 10px;
+}
+.img-icon-vinheta {
+	padding: 3px 2px 2px 2px;
+	width: 18px;
+}
+.vinheta-div-16 {
+	position: relative;
+	float: right;
+	border-left: solid 3px white;
+	background-color: rgba(120, 120, 120, 0.500);
+	width: 100%;
+}
+.div-16 {
+	margin-left: 10px;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	color: white;
+	background-color:#0a9c2a;
+	border-radius: 8px;
+}
+.int-16 {
+	position: relative;
+	margin-left: 4px;
+	padding-top: 2px;
+}
+.idade {
+	position: relative;
+	font-size: 6px;
+	margin-left: 3px;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+/* NAV */
+nav {
+	background: none;
+	position: fixed;
+	transition: all 800ms;
+	height: 7.5vh;
+}
+.nav {
+	width: 100%;
+	background-color: none;
+	padding-top: 21px;
+	z-index: 1;
+}
+ul {
+	display: inline-flex;
+	justify-content: space-between;
+	width: 230px;
+	margin-top: 4px;
+}
+ul li {
+	list-style: none;
+}
+ul li a {
+	text-decoration: none;
+	text-transform: none;
+	font-weight: 500;
+	font-size: 0.9em;
+	color: #ffffff;
+}
+ul li a:hover {
+	color: #a5a5a5;
+}
+.black {
+	background-color: #000000;
+}
+.logo {
+	float: left;
+	width: 93px;
+	height: 25px;
+	margin-left: 4%;
+	margin-right: 0.5%;
+	margin-top: 1px;
+}
+.img-icon {
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-right: 20px;
+}
+.perfil {
+	margin-right: 50px;
+}
+
+/* SECTION */
+section {
+	background-image: linear-gradient( to top, black 75%,transparent);
+	margin-top: 0px;
+	height: 26vh;
+}
+.section article {
+	position: relative;
+	margin-left: 8%;
+}
+.section article .item {
+	position: relative;
+	float: left;
+	padding: 0 0.5%;
+	transition: 250ms all;
+}
+.section article .item:hover {
+	margin: 0 3%;
+	transform: scale(1.2);
+}
+.section article .item img {
+	position: relative;
+	width: 20vw;
+	height: 26vh;
+}
+.section article .item img:hover {
+	border: solid 1px;
+	color: #5a5a5a
+}
+.section article .item a {
+	text-decoration: none;
+	text-transform: none;
+	color: #000;
+}
+figcaption {
+	position: relative;
+	color: #afafaf;
+	margin-top: -25%;
+	margin-left: 5%;
+}
+
+/* SECTITION - JS */
+.item-Js img {
+	border: solid 4px;
+	color: #fff;
+}
+
+/* MAIN */
+main {
+	clear: both;
+	background-attachment: scroll;
+	background-position-x: center;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	background-size: 220vh;
+	height: 70vh;
+}
+.x {
+	height: 50px;
+	width: 50px;
+	min-width: 40px;
+	float: right;
+	border-radius: 50%;
+	margin-right: 5%;
+}
+.hidden {
+	display: none;
+}
+.div-main {
+	color:#888888;
+	margin-left: 3%;
+	font-size: 1em;
+	width: 500px;
+	max-width: 90%;
+	max-height: 15vh;
+	text-align: justify;
+}
+.div-main p {
+	font-size: 0.8em;
+}
+.div-main h4 span {
+	font-style: italic;
+}
+
+
+.foto_2 {
+	float: left;
+	margin-top: 25px;
+	margin-left: 20%;
+	margin-right: 3%;
+	padding: 15px;
+	border-style: double;
+	border-radius: 5px;
+}
+
+.contato {
+	padding: 25px;
+	letter-spacing: 4px;
+}
+
+/* FOOTER */
+footer {
+	height: 8vh;
+	background-color: #000000;
+	text-align: center;
+	font-size: 15px;
+	color:slategrey;
+	letter-spacing: 1px;
+}
+footer div p span{
+	letter-spacing: 2px;
+	color: rgb(255, 255, 255);
+	font-size: 12px;
+	font-style: italic;
+}
